@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "webpack serve --hot",
     "build": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "start": "webpack serve --mode production"
   },
   "author": "Garvit",
   "license": "ISC",
