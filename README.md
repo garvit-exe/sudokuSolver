@@ -1,4 +1,4 @@
-# Sodoku Solver
+# Sudoku Solver
 
 ![demo-gif](https://github.com/garvit-exe/sudokuSolver/blob/c073d0caf184c17cc742b0bbd2525713d72e2bee/public/Screen%2520Recording%25202024-10-28%2520at%252021-VEED.gif)
 
