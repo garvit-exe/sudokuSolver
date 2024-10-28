@@ -23,5 +23,3 @@ and clear the board whenever you want.
     ```
 
 - **Servers on <http://localhost:8080>** (Check webpack.config.js)
-
-<br />
