@@ -8,7 +8,7 @@ module.exports = (env, argv) => ({
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, './dist'),
-    publicPath: argv.mode === 'production' ? '/sudoku/' : '/',
+    publicPath: argv.mode === 'production' ? './' : '/',
   },
   module: {
     rules: [

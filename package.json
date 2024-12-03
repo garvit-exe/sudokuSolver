@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A visualizer for sudoku solver using backtracking",
   "main": "index.js",
-  "homepage": "https://garvitbudhiraja.github.io/sudoku",
+  "homepage": ".",
   "scripts": {
     "dev": "webpack serve --hot",
     "build": "webpack --mode production",
