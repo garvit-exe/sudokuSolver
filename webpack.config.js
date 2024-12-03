@@ -2,13 +2,13 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
-  mode: 'development',
+module.exports = (env, argv) => ({
+  mode: argv.mode || 'development',
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, './dist'),
-    publicPath: '',
+    publicPath: argv.mode === 'production' ? '/sudoku/' : '/',
   },
   module: {
     rules: [
@@ -49,4 +49,4 @@ module.exports = {
       template: 'public/index.html',
     }), // Generates HTML file along with the other files
   ],
-};
+});
